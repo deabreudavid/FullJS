@@ -1,7 +1,7 @@
 //string
-let txt = "david";
-let txt = "fred";
-let txt = "michel";
+const text = "david";
+const text = "fred";
+const text = "michel";
 
 //number
 let nb = 1;
@@ -12,14 +12,14 @@ let bool = false;
 let bool2 = true;
 
 //table
-let tab= [1,2,3];
-let tab2= ["david", "fred", "michel"];
+let tab = [1, 2, 3];
+let tab2 = ["david", "fred", "michel"];
 
 //objets
-let obj ={
-    name: "david",
-    age: 20,
-}
+let obj = {
+  name: "david",
+  age: 20,
+};
 
 //undefined
 let und;
