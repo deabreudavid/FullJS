@@ -1,0 +1,8 @@
+.box{
+    width:150px;
+    height:150px;
+    background:rgb(43, 86, 226);
+}
+.active{
+    background: red;
+}
