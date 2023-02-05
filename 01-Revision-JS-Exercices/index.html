@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+   
+   <!-- Test 1 r
+    
+    <script>
+        console.log("hello world");
+   </script> -->
+  
+  
+   <!-- différents attributs
+
+   defer=> attribut booleen (true ou false) qui indique au navigateur que le script doit etre exécuté après l'analyse du document et avant l'évènement
+   donc cet attribut ne doit pas etre utilisé si l'attribut source n'est pas indiqué/ fonctionne avec l'attribut source (avec chemin vers un script)
+   ex:
+<script defer src="./app.js"></script> -->
+   
+   <!-- async=> attribut booléen qui va indiquer au navigateur qu'il doit dans la mesure du possible executer les scripts de manière asynchrone (différé dans le temps)
+   cet attribut ne doit pas etre utilisé si l'attribut source est absent
+   ex: 
+<script async src="./app.js"></script> liaison avec app.js -->
+
+   <!-- integrity=> c'est un attribut qui contient des métadonnées, l'agent de l'utilisateur peut vérifier qu'un ressource téléchargée n'a pas été modifiée de façon frauduleuse
+   ex:   
+<script integrity src="./app.js"></script> liaison avec app.js -->
+    
+   <!-- nomodule=> attribut booléen (true ou false) qui indique que le script ne doit pas être exécuté dans notre navigateur si le navigateur ne prend pas en charge
+   les modules ES6
+   ex:
+<script nomodule src="./app.js"></script> liaison avec app.js -->
+
+   <!-- nonce=> nom cryptographique utilisé pour inscrire les scripts en ligne sur une liste blanche pour la regle script source de la CSP (Conten Securities Policy)
+   le serveur doit générer un nonce unique chaque fois qu'il transmet une regle de sécurité. Rarement utilisé sauf dans la sécurité.
+   ex: 
+<script nonce src="./app.js"></script> liaison avec app.js -->
+    
+   <!-- type=> indique le type de script, plein d'exemple. Change le comportement du script
+    ex:
+<script type="module" src="./app.js"></script> liaison avec app.js
+<script type="text" src="./app.js"></script> liaison avec app.js
+<script type="button" src="./app.js"></script> liaison avec app.js -->
+
+
+</body>
+</html>
