@@ -40,7 +40,6 @@ form.addEventListener("submit", (e) => {
 });
 
 //récupérer les coordonnées de la souris
-
 const cor = document.querySelector(".cor");
 let y = 0;
 let x = 0;

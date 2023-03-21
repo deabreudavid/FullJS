@@ -3,7 +3,6 @@ let nb2 = 4;
 
 //addition
 let nb3 = nb1 + nb2;
-
 console.log(nb3);
 
 //soustraction
