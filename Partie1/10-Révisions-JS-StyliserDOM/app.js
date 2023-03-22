@@ -28,7 +28,7 @@ list.children[1].replaceWith(newLi);
 //style changement de couleur de la box
 box.style.background = "#333";
 
-//changement de source d'image accèder à l'attribut image
+//changement de source d'image accèder à l'attribut image (modification de la sources immage src)
 img.src =
   "https://images.unsplash.com/photo-1675410541565-af66672ad1f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDN8Ym84alFLVGFFMFl8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=60";
 
@@ -40,7 +40,6 @@ form.addEventListener("submit", (e) => {
 });
 
 //récupérer les coordonnées de la souris
-
 const cor = document.querySelector(".cor");
 let y = 0;
 let x = 0;
